@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+  node_version = "20"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[cache]
+  paths = [
+    "node_modules",
+    ".next/cache"
+  ]

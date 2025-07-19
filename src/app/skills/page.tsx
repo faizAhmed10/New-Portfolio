@@ -1,6 +1,6 @@
 'use client';
 
-import { FiCode, FiDatabase, FiLayers, FiServer, FiSmartphone, FiTool } from 'react-icons/fi';
+import { FiCode, FiDatabase, FiLayers, FiServer, FiSmartphone } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 
 interface Skill {

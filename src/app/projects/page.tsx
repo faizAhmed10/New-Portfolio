@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { FiExternalLink, FiGithub } from 'react-icons/fi';
+import { FiGithub } from 'react-icons/fi';
 import { Button } from '@/components/ui/button';
 import projects from "../projects.json" 
 

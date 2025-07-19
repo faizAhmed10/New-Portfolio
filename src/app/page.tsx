@@ -98,7 +98,7 @@ export default function Home() {
           <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl p-8 md:p-12 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to start a project?</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-              Let's collaborate to bring your ideas to life with elegant, sophisticated solutions.
+              Let&apos;s collaborate to bring your ideas to life with elegant, sophisticated solutions.
             </p>
             <Button size="lg" asChild>
               <Link href="/contact" prefetch={false}>Get in Touch</Link>
