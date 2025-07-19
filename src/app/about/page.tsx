@@ -51,12 +51,12 @@ export default function AboutPage() {
             >
               <h2 className="text-3xl font-bold mb-6">Hello there!</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                I'm a passionate web developer with a love for creating elegant, 
+                I&apos;m a passionate web developer with a love for creating elegant, 
                 user-friendly digital experiences. My journey in web development began with a curiosity 
                 about how websites work.
               </p>
               <p className="text-lg text-muted-foreground">
-                When I'm not coding, you can find me exploring the cosmos through 
+                When I&apos;m not coding, you can find me exploring the cosmos through 
                 astronomy, enjoying a thoughtful game of chess, writing poetry, or immersing 
                 myself in realistic films that challenge my perspective on life.
               </p>

@@ -4,52 +4,6 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import { Button } from '@/components/ui/button';
 import projects from "../projects.json" 
 
-// const projects: Project[] = [
-//   {
-//     id: 'project-1',
-//     title: 'E-Commerce Platform',
-//     description: 'A full-featured e-commerce platform with product listings, shopping cart, user authentication, and payment processing. Built with Next.js, MongoDB, and Stripe integration.',
-//     image: '/images/projects/ecommerce.svg',
-//     tags: ['Next.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
-//     githubUrl: 'https://github.com',
-//     liveUrl: 'https://example.com',
-//   },
-//   {
-//     id: 'project-2',
-//     title: 'Task Management App',
-//     description: 'A collaborative task management application with real-time updates, task assignments, and progress tracking. Implemented with React, Node.js, and Socket.io.',
-//     image: '/images/projects/task-app.svg',
-//     tags: ['React', 'Node.js', 'Socket.io', 'Express'],
-//     githubUrl: 'https://github.com',
-//     liveUrl: 'https://example.com',
-//   },
-//   {
-//     id: 'project-3',
-//     title: 'Weather Dashboard',
-//     description: 'An interactive weather dashboard that displays current conditions and forecasts for multiple locations. Uses OpenWeatherMap API and features a clean, intuitive interface.',
-//     image: '/images/projects/weather.svg',
-//     tags: ['JavaScript', 'API Integration', 'CSS3', 'Responsive Design'],
-//     githubUrl: 'https://github.com',
-//     liveUrl: 'https://example.com',
-//   },
-//   {
-//     id: 'project-4',
-//     title: 'Blog Platform',
-//     description: 'A content management system for creating and managing blog posts with categories, tags, and user comments. Built with Next.js and a headless CMS.',
-//     image: '/images/projects/blog.svg',
-//     tags: ['Next.js', 'Contentful', 'Tailwind CSS', 'Vercel'],
-//     githubUrl: 'https://github.com',
-//   },
-//   {
-//     id: 'project-5',
-//     title: 'Portfolio Website',
-//     description: 'A personal portfolio website showcasing skills and projects. Features a clean, modern design with dark mode support and smooth animations.',
-//     image: '/images/projects/portfolio.svg',
-//     tags: ['Next.js', 'TypeScript', 'Framer Motion', 'Tailwind CSS'],
-//     githubUrl: 'https://github.com',
-//     liveUrl: 'https://example.com',
-//   },
-// ];
 
 export default function ProjectsPage() {
   return (
