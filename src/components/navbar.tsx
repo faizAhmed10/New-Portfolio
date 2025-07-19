@@ -5,7 +5,6 @@ import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FiMenu, FiX } from 'react-icons/fi';
-import ThemeToggle from './theme-toggle';
 
 const navLinks = [
   { href: '/', label: 'Home' },
