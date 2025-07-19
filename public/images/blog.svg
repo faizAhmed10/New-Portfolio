@@ -1,0 +1,59 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#0f172a"/>
+  
+  <!-- Background pattern -->
+  <g opacity="0.05">
+    <rect x="0" y="0" width="800" height="450" fill="url(#grid-pattern)"/>
+  </g>
+  
+  <!-- Blog UI -->
+  <!-- Header -->
+  <rect x="150" y="50" width="500" height="60" rx="4" fill="#f8fafc" fill-opacity="0.05"/>
+  <rect x="170" y="65" width="120" height="30" rx="4" fill="#0ea5e9"/>
+  <rect x="450" y="65" width="40" height="30" rx="4" fill="#f8fafc" fill-opacity="0.1"/>
+  <rect x="500" y="65" width="40" height="30" rx="4" fill="#f8fafc" fill-opacity="0.1"/>
+  <rect x="550" y="65" width="80" height="30" rx="15" fill="#0ea5e9" fill-opacity="0.5"/>
+  
+  <!-- Blog post -->
+  <rect x="150" y="130" width="500" height="270" rx="4" fill="#f8fafc" fill-opacity="0.05"/>
+  
+  <!-- Featured image -->
+  <rect x="170" y="150" width="460" height="140" rx="4" fill="#0ea5e9" fill-opacity="0.2"/>
+  
+  <!-- Post title and meta -->
+  <rect x="170" y="310" width="300" height="24" rx="4" fill="#f8fafc" fill-opacity="0.9"/>
+  <rect x="170" y="344" width="200" height="16" rx="4" fill="#f8fafc" fill-opacity="0.5"/>
+  
+  <!-- Tags -->
+  <rect x="170" y="370" width="60" height="20" rx="10" fill="#0ea5e9" fill-opacity="0.3"/>
+  <rect x="240" y="370" width="80" height="20" rx="10" fill="#0ea5e9" fill-opacity="0.3"/>
+  <rect x="330" y="370" width="70" height="20" rx="10" fill="#0ea5e9" fill-opacity="0.3"/>
+  
+  <!-- Blog elements -->
+  <!-- Featured post indicator -->
+  <rect x="550" y="310" width="80" height="24" rx="4" fill="#4f46e5" fill-opacity="0.5"/>
+  
+  <!-- Reading time -->
+  <rect x="550" y="344" width="80" height="16" rx="4" fill="#f8fafc" fill-opacity="0.3"/>
+  
+  <!-- Blog post content elements -->
+  <g opacity="0.6">
+    <!-- Image placeholder in post -->
+    <rect x="250" y="200" width="300" height="40" rx="4" fill="#f8fafc" fill-opacity="0.2"/>
+    
+    <!-- Text lines in image -->
+    <rect x="270" y="210" width="120" height="8" rx="4" fill="#f8fafc" fill-opacity="0.8"/>
+    <rect x="270" y="222" width="80" height="8" rx="4" fill="#f8fafc" fill-opacity="0.5"/>
+    
+    <!-- Button in image -->
+    <rect x="410" y="210" width="120" height="20" rx="10" fill="#0ea5e9"/>
+  </g>
+  
+  <!-- Patterns definition -->
+  <defs>
+    <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="none"/>
+      <path d="M 40 0 L 0 0 0 40" stroke="#f8fafc" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+</svg>

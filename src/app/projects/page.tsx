@@ -1,0 +1,118 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import { FiExternalLink, FiGithub } from 'react-icons/fi';
+import { Button } from '@/components/ui/button';
+import projects from "../projects.json" 
+
+// const projects: Project[] = [
+//   {
+//     id: 'project-1',
+//     title: 'E-Commerce Platform',
+//     description: 'A full-featured e-commerce platform with product listings, shopping cart, user authentication, and payment processing. Built with Next.js, MongoDB, and Stripe integration.',
+//     image: '/images/projects/ecommerce.svg',
+//     tags: ['Next.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
+//     githubUrl: 'https://github.com',
+//     liveUrl: 'https://example.com',
+//   },
+//   {
+//     id: 'project-2',
+//     title: 'Task Management App',
+//     description: 'A collaborative task management application with real-time updates, task assignments, and progress tracking. Implemented with React, Node.js, and Socket.io.',
+//     image: '/images/projects/task-app.svg',
+//     tags: ['React', 'Node.js', 'Socket.io', 'Express'],
+//     githubUrl: 'https://github.com',
+//     liveUrl: 'https://example.com',
+//   },
+//   {
+//     id: 'project-3',
+//     title: 'Weather Dashboard',
+//     description: 'An interactive weather dashboard that displays current conditions and forecasts for multiple locations. Uses OpenWeatherMap API and features a clean, intuitive interface.',
+//     image: '/images/projects/weather.svg',
+//     tags: ['JavaScript', 'API Integration', 'CSS3', 'Responsive Design'],
+//     githubUrl: 'https://github.com',
+//     liveUrl: 'https://example.com',
+//   },
+//   {
+//     id: 'project-4',
+//     title: 'Blog Platform',
+//     description: 'A content management system for creating and managing blog posts with categories, tags, and user comments. Built with Next.js and a headless CMS.',
+//     image: '/images/projects/blog.svg',
+//     tags: ['Next.js', 'Contentful', 'Tailwind CSS', 'Vercel'],
+//     githubUrl: 'https://github.com',
+//   },
+//   {
+//     id: 'project-5',
+//     title: 'Portfolio Website',
+//     description: 'A personal portfolio website showcasing skills and projects. Features a clean, modern design with dark mode support and smooth animations.',
+//     image: '/images/projects/portfolio.svg',
+//     tags: ['Next.js', 'TypeScript', 'Framer Motion', 'Tailwind CSS'],
+//     githubUrl: 'https://github.com',
+//     liveUrl: 'https://example.com',
+//   },
+// ];
+
+export default function ProjectsPage() {
+  return (
+    <div className="py-16 sm:py-24 wrapper">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-2xl mx-auto lg:max-w-none">
+          <div className="text-center mb-16">
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
+              My <span className="gradient-text">Projects</span>
+            </h1>
+            <p className="text-xl text-muted-foreground">
+              A collection of my recent work and personal projects
+            </p>
+          </div>
+
+          <div className="grid gap-12">
+            {projects.map((project, index) => (
+              <div 
+                key={project.id}
+                className="group relative grid md:grid-cols-2 gap-8 items-center"
+              >
+                {/* Project Image */}
+                <div className={`relative overflow-hidden rounded-lg border ${index % 2 === 1 ? 'md:order-2' : ''}`}>
+                  <div className="aspect-[16/9] w-full bg-secondary/30">
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                </div>
+
+                {/* Project Info */}
+                <div className={index % 2 === 1 ? 'md:order-1' : ''}>
+                  <h2 className="text-2xl font-bold mb-3">{project.title}</h2>
+                  <p className="text-muted-foreground mb-6">{project.description}</p>
+                  
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {project.tags.map((tag) => (
+                      <span 
+                        key={tag} 
+                        className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  
+                  <div className="flex gap-4">
+                    {project.githubUrl &&
+                    <Button asChild variant="outline" size="sm">
+                      <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer" prefetch={false}>
+                        <FiGithub className="mr-2" /> GitHub
+                      </Link>
+                    </Button>}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,17 @@
+/* Custom font styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-fira-code: 'Fira Code', monospace;
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
+code, pre, .font-mono {
+  font-family: var(--font-fira-code);
+}

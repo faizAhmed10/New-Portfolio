@@ -1,0 +1,54 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#0f172a"/>
+  
+  <!-- Background grid -->
+  <g opacity="0.1">
+    <line x1="0" y1="50" x2="800" y2="50" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="0" y1="150" x2="800" y2="150" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="0" y1="250" x2="800" y2="250" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="0" y1="350" x2="800" y2="350" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#f8fafc" stroke-width="1"/>
+    
+    <line x1="50" y1="0" x2="50" y2="450" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="150" y1="0" x2="150" y2="450" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="250" y1="0" x2="250" y2="450" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="350" y1="0" x2="350" y2="450" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="450" y1="0" x2="450" y2="450" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="550" y1="0" x2="550" y2="450" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="650" y1="0" x2="650" y2="450" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="750" y1="0" x2="750" y2="450" stroke="#f8fafc" stroke-width="1"/>
+  </g>
+  
+  <!-- E-commerce elements -->
+  <!-- Header -->
+  <rect x="100" y="50" width="600" height="60" rx="4" fill="#0ea5e9" fill-opacity="0.2"/>
+  <rect x="120" y="65" width="120" height="30" rx="4" fill="#0ea5e9"/>
+  <rect x="500" y="65" width="40" height="30" rx="4" fill="#f8fafc" fill-opacity="0.2"/>
+  <rect x="550" y="65" width="40" height="30" rx="4" fill="#f8fafc" fill-opacity="0.2"/>
+  <rect x="600" y="65" width="80" height="30" rx="15" fill="#0ea5e9"/>
+  
+  <!-- Product grid -->
+  <rect x="100" y="140" width="180" height="220" rx="4" fill="#f8fafc" fill-opacity="0.1"/>
+  <rect x="120" y="160" width="140" height="140" rx="4" fill="#0ea5e9" fill-opacity="0.3"/>
+  <rect x="120" y="310" width="140" height="20" rx="4" fill="#f8fafc" fill-opacity="0.5"/>
+  <rect x="120" y="340" width="80" height="10" rx="4" fill="#0ea5e9"/>
+  
+  <rect x="310" y="140" width="180" height="220" rx="4" fill="#f8fafc" fill-opacity="0.1"/>
+  <rect x="330" y="160" width="140" height="140" rx="4" fill="#0ea5e9" fill-opacity="0.3"/>
+  <rect x="330" y="310" width="140" height="20" rx="4" fill="#f8fafc" fill-opacity="0.5"/>
+  <rect x="330" y="340" width="80" height="10" rx="4" fill="#0ea5e9"/>
+  
+  <rect x="520" y="140" width="180" height="220" rx="4" fill="#f8fafc" fill-opacity="0.1"/>
+  <rect x="540" y="160" width="140" height="140" rx="4" fill="#0ea5e9" fill-opacity="0.3"/>
+  <rect x="540" y="310" width="140" height="20" rx="4" fill="#f8fafc" fill-opacity="0.5"/>
+  <rect x="540" y="340" width="80" height="10" rx="4" fill="#0ea5e9"/>
+  
+  <!-- Footer -->
+  <rect x="100" y="390" width="600" height="40" rx="4" fill="#f8fafc" fill-opacity="0.05"/>
+  <circle cx="650" cy="410" r="15" fill="#0ea5e9" fill-opacity="0.5"/>
+  <circle cx="610" cy="410" r="15" fill="#0ea5e9" fill-opacity="0.5"/>
+  <circle cx="570" cy="410" r="15" fill="#0ea5e9" fill-opacity="0.5"/>
+</svg>

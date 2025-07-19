@@ -1,0 +1,68 @@
+[
+    {
+        "id": "0",
+        "title": "FlexWork - The Part time marketplace for students",
+        "description": "A platform built to connect Students with Businesses and Part time work opportunities enabling Students to earn and gain experience and allowing Businesses to hire fresh talent. (Private)",
+        "image": "/images/projects/flexwork.png",
+        "tags": ["Next.js", "Django", "PostgreSQL", "Tailwind CSS"] 
+    },
+    {
+        "id": "1",
+        "title": "YC Directory",
+        "description": "An app that allows startup founders to pitch their startups, gain awareness and funding opportunities. \nI built this while learning the core concepts of NextJS, Oauth and Content Management Systems like Sanity.",
+        "image": "/images/projects/ycdir.png",
+        "tags": ["Next.js", "Sanity", "Tailwind CSS"],
+        "githubUrl": "https://github.com/faizAhmed10/YC-Directory"
+    },
+    {
+        "id": "2",
+        "title": "LBS Gazette",
+        "description": "A Newspaper app built for colleges and universities to publish and distribute news articles related to the organization and beyond. Authors can create and publish articles, readers and read and comment and Admins can monitor.",
+        "image": "/images/projects/gazette.jpg",
+        "tags": ["ReactJS", "Django", "PostgreSQL", "CSS"],
+        "githubUrl": "https://github.com/faizAhmed10?tab=repositories"
+    },
+    {
+        "id": "3",
+        "title": "BlogShare",
+        "description": "A Blogging app that allows users to write and share blogs. I built this to learn advanced CRUD operations.",
+        "image": "/images/projects/blogshare.jpg",
+        "tags": ["ReactJS", "Django", "PostgreSQL"],
+        "githubUrl": "https://github.com/faizAhmed10/BlogShare-Backend"
+    },
+    {
+        "id": "4",
+        "title": "The Notes App",
+        "description": "A simple notes app that I built to learn the basics of backend and simple CRUD operations",
+        "image": "/images/projects/notesapp.jpg",
+        "tags": ["ReactJS", "Django", "PostgreSQL"],
+        "githubUrl": "https://github.com/faizAhmed10/Notes-App"
+    },
+    {
+        "id": "5",
+        "title": "The WireLess",
+        "description": "A News website that delivers fresh news from around the world using NewsAPI. I built this to learn and understand the basics of react and API integration.",
+        "image": "/images/projects/wireless.jpg",
+        "tags": ["ReactJS", "NewsAPI"],
+        "githubUrl": "https://github.com/faizAhmed10/The-Wireless---News-App"
+    },
+    {
+        "id": "6",
+        "title": "Calm UI Clone",
+        "description": "A UI Clone of Calm's website I built to learn the basics of CSS and design",
+        "image": "/images/projects/calm.jpg",
+        "tags": ["HTML", "CSS"],
+        "githubUrl": "https://github.com/faizAhmed10/Calm-UI-Clone"
+    },
+    {
+        "id": "7",
+        "title": "Four Seasons UI Clone",
+        "description": "A UI Clone of Four Seasons' website I built to learn the basics of CSS and design",
+        "image": "/images/projects/fourseasons.jpg",
+        "tags": ["HTML", "CSS"],
+        "githubUrl": "https://github.com/faizAhmed10/Four-Seasons-Resort---Clone"
+    }
+
+
+
+]

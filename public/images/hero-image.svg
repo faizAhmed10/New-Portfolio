@@ -1,0 +1,40 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background elements -->
+  <circle cx="400" cy="400" r="300" fill="#0ea5e9" fill-opacity="0.1"/>
+  
+  <!-- Chess piece (knight) -->
+  <g transform="translate(300, 250) scale(0.8)">
+    <path d="M200 400C200 400 280 360 280 240C280 180 240 160 240 160C240 160 260 140 260 100C260 60 220 40 180 40C140 40 100 60 100 100C100 140 120 160 120 160C120 160 80 180 80 240C80 360 160 400 160 400L140 440H220L200 400Z" fill="#4f46e5" stroke="#0f172a" stroke-width="8"/>
+    <path d="M160 400L140 440H220L200 400C200 400 280 360 280 240C280 180 240 160 240 160" stroke="#0f172a" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="180" cy="100" r="20" fill="#0f172a"/>
+  </g>
+  
+  <!-- Space elements -->
+  <g>
+    <!-- Stars -->
+    <circle cx="150" cy="150" r="3" fill="#4f46e5"/>
+    <circle cx="650" cy="200" r="2" fill="#4f46e5"/>
+    <circle cx="700" cy="350" r="3" fill="#4f46e5"/>
+    <circle cx="600" cy="600" r="2" fill="#4f46e5"/>
+    <circle cx="200" cy="650" r="3" fill="#4f46e5"/>
+    <circle cx="350" cy="700" r="2" fill="#4f46e5"/>
+    
+    <!-- Planet -->
+    <circle cx="150" cy="550" r="40" fill="#0ea5e9" fill-opacity="0.3" stroke="#0ea5e9" stroke-width="2"/>
+    <circle cx="130" cy="530" r="10" fill="#0ea5e9" fill-opacity="0.5"/>
+    <circle cx="170" cy="570" r="8" fill="#0ea5e9" fill-opacity="0.5"/>
+    
+    <!-- Orbit -->
+    <ellipse cx="400" cy="400" rx="350" ry="350" stroke="#4f46e5" stroke-width="1" stroke-dasharray="10 10" stroke-opacity="0.3"/>
+  </g>
+  
+  <!-- Code elements -->
+  <g transform="translate(500, 350)">
+    <rect x="0" y="0" width="200" height="150" rx="10" fill="#0f172a" fill-opacity="0.8"/>
+    <text x="20" y="30" font-family="monospace" font-size="14" fill="#0ea5e9">function create() {</text>
+    <text x="40" y="60" font-family="monospace" font-size="14" fill="#f8fafc">  return {</text>
+    <text x="60" y="90" font-family="monospace" font-size="14" fill="#4f46e5">    portfolio: true</text>
+    <text x="40" y="120" font-family="monospace" font-size="14" fill="#f8fafc">  };</text>
+    <text x="20" y="150" font-family="monospace" font-size="14" fill="#0ea5e9">}</text>
+  </g>
+</svg>

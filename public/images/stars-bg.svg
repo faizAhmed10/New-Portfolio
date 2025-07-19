@@ -1,0 +1,54 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.8">
+    <circle cx="144" cy="90" r="1" fill="currentColor"/>
+    <circle cx="432" cy="180" r="1.5" fill="currentColor"/>
+    <circle cx="720" cy="90" r="1" fill="currentColor"/>
+    <circle cx="1008" cy="180" r="1.5" fill="currentColor"/>
+    <circle cx="1296" cy="90" r="1" fill="currentColor"/>
+    <circle cx="144" cy="270" r="1.5" fill="currentColor"/>
+    <circle cx="432" cy="360" r="1" fill="currentColor"/>
+    <circle cx="720" cy="270" r="1.5" fill="currentColor"/>
+    <circle cx="1008" cy="360" r="1" fill="currentColor"/>
+    <circle cx="1296" cy="270" r="1.5" fill="currentColor"/>
+    <circle cx="144" cy="450" r="1" fill="currentColor"/>
+    <circle cx="432" cy="540" r="1.5" fill="currentColor"/>
+    <circle cx="720" cy="450" r="1" fill="currentColor"/>
+    <circle cx="1008" cy="540" r="1.5" fill="currentColor"/>
+    <circle cx="1296" cy="450" r="1" fill="currentColor"/>
+    <circle cx="144" cy="630" r="1.5" fill="currentColor"/>
+    <circle cx="432" cy="720" r="1" fill="currentColor"/>
+    <circle cx="720" cy="630" r="1.5" fill="currentColor"/>
+    <circle cx="1008" cy="720" r="1" fill="currentColor"/>
+    <circle cx="1296" cy="630" r="1.5" fill="currentColor"/>
+    <circle cx="144" cy="810" r="1" fill="currentColor"/>
+    <circle cx="432" cy="900" r="1.5" fill="currentColor"/>
+    <circle cx="720" cy="810" r="1" fill="currentColor"/>
+    <circle cx="1008" cy="900" r="1.5" fill="currentColor"/>
+    <circle cx="1296" cy="810" r="1" fill="currentColor"/>
+    <circle cx="288" cy="90" r="1.5" fill="currentColor"/>
+    <circle cx="576" cy="180" r="1" fill="currentColor"/>
+    <circle cx="864" cy="90" r="1.5" fill="currentColor"/>
+    <circle cx="1152" cy="180" r="1" fill="currentColor"/>
+    <circle cx="1440" cy="90" r="1.5" fill="currentColor"/>
+    <circle cx="288" cy="270" r="1" fill="currentColor"/>
+    <circle cx="576" cy="360" r="1.5" fill="currentColor"/>
+    <circle cx="864" cy="270" r="1" fill="currentColor"/>
+    <circle cx="1152" cy="360" r="1.5" fill="currentColor"/>
+    <circle cx="1440" cy="270" r="1" fill="currentColor"/>
+    <circle cx="288" cy="450" r="1.5" fill="currentColor"/>
+    <circle cx="576" cy="540" r="1" fill="currentColor"/>
+    <circle cx="864" cy="450" r="1.5" fill="currentColor"/>
+    <circle cx="1152" cy="540" r="1" fill="currentColor"/>
+    <circle cx="1440" cy="450" r="1.5" fill="currentColor"/>
+    <circle cx="288" cy="630" r="1" fill="currentColor"/>
+    <circle cx="576" cy="720" r="1.5" fill="currentColor"/>
+    <circle cx="864" cy="630" r="1" fill="currentColor"/>
+    <circle cx="1152" cy="720" r="1.5" fill="currentColor"/>
+    <circle cx="1440" cy="630" r="1" fill="currentColor"/>
+    <circle cx="288" cy="810" r="1.5" fill="currentColor"/>
+    <circle cx="576" cy="900" r="1" fill="currentColor"/>
+    <circle cx="864" cy="810" r="1.5" fill="currentColor"/>
+    <circle cx="1152" cy="900" r="1" fill="currentColor"/>
+    <circle cx="1440" cy="810" r="1.5" fill="currentColor"/>
+  </g>
+</svg>
